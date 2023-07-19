@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="img11/8nAm-YsBbxDswigGmEWqpA_store_logo_image.png" type="image/x-icon">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Solo Leveling</title>
+
+    <style>
+        .header {
+            background-color: rgb(35, 35, 36);
+            margin-bottom: 0;
+        }
+        
+        .header img {
+            max-width: 4%;
+            margin-left: auto;
+        }
+        
+        .navbar {
+            background-color: black; /* Set your desired background color */
+            opacity: 0.8;
+            position: sticky;
+            top: 100;
+            left: 0;
+            width: 100%;
+            z-index: 2;
+        }
+
+        .content {
+            margin-top: 100px; /* Adjust the margin-top value based on the height of the navbar */
+        }
+        
+        .navbar .container-fluid {
+            padding-top: auto; /* Adjust the value as needed for spacing */
+            margin-left: -10px;
+            width: 100%;
+        }
+
+        
+        .max-width-100 {
+            max-width: 100%;
+        }
+
+        .navbar-toggler-icon {
+        color: white; 
+        background-color: transparent;
+        border: none;
+        }
+
+        #tesst{
+            color: white;
+        }
+
+
+       
+    </style>
+
+</head>
+<body class="bg-dark" style="background-image: url(img11/bg.png); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
+ 
+    <div class="header">
+        <img class="mx-auto d-block w-100 max-width-100" src="img11/8nAm-YsBbxDswigGmEWqpA_store_logo_image.png" alt="" style="margin-left: 10px;">
+    </div>
+    <!-- start of navigation -->
+    
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <!-- navigation title -->
+            <a style="color: white;" class="navbar-brand" href="">
+                <img src="img11/Logo_FR_Solo_Leveling.png" alt="">
+            </a>
+            <!-- navigation title -->
+            <!-- navigation button -->
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExcercise10">
+                <i class="fa-solid fa-bars" id="tesst"></i>
+            </button>
+            <!-- navigation button -->
+            <!-- navigation list start -->
+            <div class="collapse navbar-collapse" id="navigationExcercise10">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a style="color: white;" class="nav-link" href="http://127.0.0.1:5500/WD76_EXERCISE11_CERVANTES.html">
+                            <i class="fa-solid fa-house"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a style="color: white;" class="nav-link dropdown-toggle" href="#" id="dropdownSample" data-bs-toggle="dropdown">
+                            <i class="fa-solid fa-circle-info"></i> About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#sampleModal9"><i class="fa-solid fa-user"></i> <span style="padding-left: 2px;"></span> Characters</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-item" data-bs-toggle="modal" data-bs-target="#sampleModal10"><span style="padding-left: 5px;"></span><i class="fa-solid fa-info"></i> <span style="padding-left: 5px;"></span>About Solo Leveling</a>
+
+                                <!-- naglagay <span style="padding-left: 5px;"></span> para may space and pantay ang character and about solo -->
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: white;" class="nav-link" href="http://127.0.0.1:5500/EXERCISE11_CONTACT.html">
+                            <i class="fa-solid fa-phone"></i> Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            <!-- navigation list end -->
+    </nav>
+    <!-- <div class="bgimage">
+        <img class="d-block w-100" src="img11/bg.png" alt="">
+    </div> -->
+<!-- CARDS START -->
+<div class="container my-5">
+    <!-- mx padding for left and Right
+    my padding for top and bottom -->
+    <h1 class="text-white d-flex justify-content-center align-items-center" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">All Solo Leveling Books</h1>
+
+    <br/>
+    <div class="row g-2 justify-content-center"> <!-- g-2 is the space between the cards -->
+        <!-- justify-content-center to center the cards -->
+        <!-- g-3 for gutter can also use gx or gy  -->
+        <div class="col-lg-3 col-sm-12 mb-5">
+            <!-- col-lg-3 to divide the cards to 4 (12/3) and col-sm-12 so the card would be allocated the entire column if the screen is small -->
+
+            <div class="card h-100">
+                <img src="img11/book1.jpg" class="card-img-left" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Book 1</h5>
+                <p class="card-text">
+                    THE WEAKEST HUNTER OF ALL MANKIND!
+E-rank hunter Ji…</p>
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1"><i class="fa-regular fa-eye"></i> Show More</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-sm-12 mb-5">
+        <div class="card h-100">
+            <img src="img11/book2.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Book 2</h5>
+                <p class="card-text">
+                    ARISE! Once dubbed the Weakest Hunter of All Manki…
+                </p>
+                <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2"><i class="fa-regular fa-eye"></i> Show More</a>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    
+           
+
+            <div class="col-lg-3 col-sm-12  mb-5">
+                <div class="card h-100">
+                    <img src="img11/book3.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Book 3</h5>
+                    <p class="card-text">
+                        INWOO SUNG, OFFICIALLY S RANK
+
+                        Leveling up in C-rank dungeons has become next...</p>
+                        <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal3"><i class="fa-regular fa-eye"></i> Show More</a>
+                </div>
+            </div></div>
+
+            <div class="col-lg-3 col-sm-12 mb-5">
+                <div class="card h-100">
+                    <img src="img11/book4.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Book 4</h5>
+                    <p class="card-text">
+                        When Jinwoo sets about mentoring one of Jinho’s recruits- who...</p>
+                        <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal4"><i class="fa-regular fa-eye"></i> Show More</a>
+                </div>
+            </div></div>
+
+
+            <div class="col-lg-3 col-sm-12 mb-5">
+                <div class="card h-100">
+                    <img src="img11/book5.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Book 5</h5>
+                    <p class="card-text">
+                        A devastating dungeon break at his sister's high school is quickly taken...</p>  
+                        <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal5"><i class="fa-regular fa-eye"></i> Show More</a>             
+                </div>
+            </div></div>
+            <div class="col-lg-3 col-sm-12 mb-5">
+                <div class="card h-100">
+                    <img src="img11/book6.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Book 6</h5>
+                    <p class="card-text">
+                        Having witnessed the staggering power of the Shado…</p>  
+                        <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal6"><i class="fa-regular fa-eye"></i> Show More</a>            
+                </div>
+            </div></div>
+            <div class="col-lg-3 col-sm-12 mb-5">
+                <div class="card h-100">
+                    <img src="img11/book7.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Book 7</h5>
+                    <p class="card-text">
+                        With the battle between the Monarchs and the Rulers quickly approaching, Jinwoo...</p>  
+                        <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal7"><i class="fa-regular fa-eye"></i> Show More</a>          
+                </div>
+            </div></div>
+            <div class="col-lg-3 col-sm-12 mb-5">
+                <div class="card h-100">
+                    <img src="img11/book8.webp" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Book 8</h5>
+                    <p class="card-text">
+                        “MAY YOUR COURAGE SAVE YOUR WORLD.” The Monarch of…</p>  
+                        <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal8"><i class="fa-regular fa-eye"></i> Show More</a>          
+                </div>
+            </div></div>
+        </div>
+
+    </div>
+<!-- CARDS END -->
+
+
+
+    <!-- Modal 1 -->
+    <div class="modal" id="sampleModal1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Solo leveling - light Novel </h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img style="border-radius: 5px;" src="img11/book1.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Book 1</h3>
+                            <p>THE WEAKEST HUNTER OF ALL MANKIND!
+                                E-rank hunter Jinwoo Sung has no money, no talent, and no prospects to speak of—and apparently, no luck, either! When he enters a hidden double dungeon one fateful day, he’s abandoned by his party and left to die at the hands of some of the most horrific monsters he’s ever encountered.
+                                But just before the last, fatal blow…
+                                
+                                PING! [Congratulations on becoming a Player.]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary mr-auto" onclick="window.location.href = 'https://www.amazon.com/Solo-Leveling-Vol-1-Novel/dp/B096YCZLTL/ref=sr_1_1?adid=082VK13VJJCZTQYGWWCZ&amp;campaign=211041&amp;creative=374001&amp;keywords=Solo%20leveling%20-%20light%20Novel&amp;qid=1689644978&amp;s=books&amp;sr=1-1'"><i class="fa-solid fa-cart-shopping"></i> Buy on Amazon</button>
+
+                    <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- END OF 1ST MODAL -->
+
+
+    <!-- Modal 2 -->
+    <div class="modal" id="sampleModal2">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Solo leveling - light Novel</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img style="border-radius: 5px;" src="img11/book2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Book 2</h3>
+                            <p>ARISE! Once dubbed the Weakest Hunter of All Mankind, Jinwoo is now…well, something else entirely. Armed with his mysterious system, he’s currently powerful enough to single-handedly clear dungeons that once would have proven life-threatening. He just has to ready himself to take on the Demon’s Castle—and what better way to do so than finishing a quest? Exclusive new weapons and skills from an assassin-class job may be just what Jinwoo needs… but the system seems to have other plans for him!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary mr-auto" onclick="window.location.href = 'https://www.amazon.com/Solo-Leveling-Vol-novel-ebook/dp/B08ZMTZ133/ref=sr_1_2?adid=082VK13VJJCZTQYGWWCZ&campaign=211041&creative=374001&keywords=Solo+leveling+-+light+Novel&qid=1689645247&s=books&sr=1-2'"><i class="fa-solid fa-cart-shopping"></i> Buy on Amazon</button>
+
+                    <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- END OF 2ND MODAL -->
+
+
+    <!-- Modal 3 -->
+    <div class="modal" id="sampleModal3">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Solo leveling - light Novel</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img style="border-radius: 5px;" src="img11/book3.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Book 3</h3>
+                            <p>JINWOO SUNG, OFFICIALLY S RANK
+
+                                Leveling up in C-rank dungeons has become next to impossible for Jinwoo. But an E-rank hunter attempting anything higher? Well, that would raise some serious red flags…so the time has come for a reevaluation. And when the results are back, it’s official—Jinwoo is the tenth S-rank hunter from South Korea! An entirely new world, brimming with powerful magic beasts and elite hunters, is now open to him. But before he can immerse himself in it, there’s something absolutely vital he has to do…</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary mr-auto" onclick="window.location.href = 'https://www.amazon.com/gp/product/B091PQ4LTT?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks'"><i class="fa-solid fa-cart-shopping"></i> Buy on Amazon</button>
+
+                    <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- END OF 3rd MODAL -->
+
+
+    <!-- Modal 4 -->
+    <div class="modal" id="sampleModal4">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Solo leveling - light Novel</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img style="border-radius: 5px;" src="img11/book4.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Book 4</h3>
+                            <p>
+
+                                “IT’S SHOWTIME.”
+
+The news has made headlines—"Korea and Japan join hands to exterminate the terrifying magic beasts on Jeju Island once and for all!” It’s a monumental moment for the people of the country…and it has absolutely nothing to do with Jinwoo. Instead, the newest S-rank hunter’s number one priority is bringing his recently recovered mother back home where she belongs at last. When the situation on Jeju Island takes a devastating turn for the worse, though, will the country's top hunters be strong enough to save the day without him?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary mr-auto" onclick="window.location.href = 'https://www.amazon.com/gp/product/B09BMYSKQK?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks'"><i class="fa-solid fa-cart-shopping"></i> Buy on Amazon</button>
+
+                    <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- END OF 4th MODAL -->
+
+
+    <!-- Modal 5 -->
+    <div class="modal" id="sampleModal5">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Solo leveling - light Novel</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img style="border-radius: 5px;" src="img11/book5.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Book 5</h3>
+                            <p>"WHO AM I?"
+
+                                A devastating dungeon break at his sister's high school is quickly taken care of by Jinwoo...but not before he confirms that magic beasts no longer register him as a human. What's more, the deceased Byunggu Min sends him a cryptic warning from beyond the grave: Jinwoo's powers are more frightening that he knows. Left with too many questions and very few answers, his final hope lies in the key to Cartenon Temple. Jinwoo's determined to find out who—or what—he's become, and to do so, he's prepared to return to where it all began!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary mr-auto" onclick="window.location.href = 'https://www.amazon.com/gp/product/B09Q2YN15Z?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks'"><i class="fa-solid fa-cart-shopping"></i> Buy on Amazon</button>
+
+                    <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- END OF 5th MODAL -->
+
+
+        <!-- Modal 6 -->
+        <div class="modal" id="sampleModal6">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Solo leveling - light Novel</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img style="border-radius: 5px;" src="img11/book6.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <h3>Book 6</h3>
+                                <p>Having witnessed the staggering power of the Shadow Monarch, Jinwoo can’t wait to level up and reach those heights, and what better way to do so than to mobilize his army of soldiers against an S-rank dungeon’s worth of giants? Saving a country abandoned by the rest of the world has its benefits—international renown, the expansion of his guild, an invitation to the most prestigious hunter conference in the world—but perhaps the most unexpected bonus is a run-in with another Monarch who brings not-so-welcome tidings. If he’s to be believed, a war is coming that not even Jinwoo is strong enough to stop…</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary mr-auto" onclick="window.location.href = 'https://www.amazon.com/gp/product/B0B38NGMKC?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks'"><i class="fa-solid fa-cart-shopping"></i> Buy on Amazon</button>
+    
+                        <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- END OF 6th MODAL -->
+
+
+                <!-- Modal 7 -->
+                <div class="modal" id="sampleModal7">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Solo leveling - light Novel </h5>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img style="border-radius: 5px;" src="img11/book7.jpg" class="w-100" alt="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3>Book 7</h3>
+                                        <p>With the battle between the Monarchs and the Rulers quickly approaching, Jinwoo must rally the international community against this oncoming threat! Though he wields unimaginable power, he’s acutely aware that he can’t fight them all on his own...but will the other hunters stand with him?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary mr-auto" onclick="window.location.href = 'https://www.amazon.com/gp/product/B0B9MHFG88?ref_=dbs_p_pwh_rwt_anx_cl_1&storeType=ebooks'"><i class="fa-solid fa-cart-shopping"></i> Buy on Amazon</button>
+            
+                                <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- END OF 7th MODAL -->
+
+
+                 <!-- Modal 8 -->
+                 <div class="modal" id="sampleModal8">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Solo leveling - light Novel </h5>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img style="border-radius: 5px;" src="img11/book8.webp" class="w-100" alt="">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3>Book 8</h3>
+                                        <p>“MAY YOUR COURAGE SAVE YOUR WORLD.” The Monarch of Destruction and the armies of Chaos have descended upon Earth, leaving nothing but death and carnage in their wake. The fate of humanity lies in the hands of the newly crowned Shadow Monarch, Jinwoo Sung. Who will be the final victor when the dust settles on this timeless feud?And more importantly, will there be anything left of the world to save?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary mr-auto" onclick="window.location.href = 'https://www.amazon.com/Solo-Leveling-Vol-novel-ebook/dp/B0BSTXZN2W/ref=d_pd_sbs_sccl_1_1/134-7105612-1318049?pd_rd_w=qkueR&content-id=amzn1.sym.3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=8ZD4TD10SA171T52BXT3&pd_rd_wg=KpXIR&pd_rd_r=c0276777-a598-41d8-a717-4b769ba4a2ba&pd_rd_i=B0BSTXZN2W&psc=1'"><i class="fa-solid fa-cart-shopping"></i> Buy on Amazon</button>
+            
+                                <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- END OF 8th MODAL -->
+ 
+ <!----------------------------------------------------------------------------------------------------------                -->
+
+<!-- Modal for Characters -->
+
+<!-- Modal 9 -->
+<div class="modal" id="sampleModal9">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Characters</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img style="border-radius: 5px;" src="img11/characters/Jinwoo4.webp" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Sung Jinwoo</h4>
+                        <p>Sung Jinwoo (성진우) is the main protagonist of Solo Leveling. Originally an infamously weak E-Rank Hunter, he got the chance of a lifetime when he was selected as the Player of the System, giving him the unique ability to grow in strength without restraint. As a result, by taking advantage of the opportunities offered to him by the System, Jinwoo eventually rose to power as humanity's greatest hunter and the second Shadow Monarch.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group mr-auto">
+                    <!-- mr-auto TO CHANGE BUTTON POSITION TO THE LEFT -->
+
+
+
+
+                    <!-- <a class="btn btn-warning mr-2" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal8">
+                        <i class="fa-solid fa-circle-info"></i> Back
+                    </a> -->
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal11">
+                        <i class="fa-solid fa-chevron-right"></i> Next
+                    </a>
+                </div>
+                <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END OF 9th MODAL -->   
+
+
+<!-- Modal 11 -->
+<div class="modal" id="sampleModal11">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Characters</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img style="border-radius: 5px;" src="img11/characters/Cha25.webp" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Cha Hae-In</h4>
+                        <p>Cha Hae-In (차해인) is a Korean S-Rank Hunter and the Vice-Guild Master of the Hunters Guild.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group mr-auto">
+                    <a class="btn btn-warning mr-2" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal9">
+                        <i class="fa-solid fa-chevron-left"></i> Back
+                    </a>
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal12">
+                        <i class="fa-solid fa-chevron-right"></i> Next
+                    </a>
+                </div>
+                <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END OF 11th MODAL -->  
+
+
+<!-- Modal 12 -->
+<div class="modal" id="sampleModal12">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Characters</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img style="border-radius: 5px;" src="img11/characters/Gunhee1.webp" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Go Gunhee</h4>
+                        <p>Go Gunhee (고건희) was a Korean S-Rank Hunter and the Chairman of the Korean Hunters Association.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group mr-auto">
+                    <a class="btn btn-warning mr-2" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal11">
+                        <i class="fa-solid fa-chevron-left"></i> Back
+                    </a>
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal13">
+                        <i class="fa-solid fa-chevron-right"></i> Next
+                    </a>
+                </div>
+                <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END OF 12th MODAL -->
+
+
+<!-- Modal 13 -->
+<div class="modal" id="sampleModal13">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Characters</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img style="border-radius: 5px;" src="img11/characters/sungil.webp" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Sung Il-Hwan</h4>
+                        <p>Sung Il-Hwan (성일환) was a Korean Hunter and Jinwoo's father.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group mr-auto">
+                    <a class="btn btn-warning mr-2" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal12">
+                        <i class="fa-solid fa-chevron-left"></i> Back
+                    </a>
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal14">
+                        <i class="fa-solid fa-chevron-right"></i> Next
+                    </a>
+                </div>
+                <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END OF 13th MODAL -->
+
+
+<!-- Modal 14 -->
+<div class="modal" id="sampleModal14">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Characters</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img style="border-radius: 5px;" src="img11/characters/Baek11.webp" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Baek Yoonho</h4>
+                        <p>Baek Yoonho (‎백윤호) is a Korean S-Rank hunter who specializes in transformation magic and the Guild Master of the White Tiger Guild.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group mr-auto">
+                    <a class="btn btn-warning mr-2" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal13">
+                        <i class="fa-solid fa-chevron-left"></i> Back
+                    </a>
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal15">
+                        <i class="fa-solid fa-chevron-right"></i> Next
+                    </a>
+                </div>
+                <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END OF 14th MODAL -->
+
+
+<!-- Modal 15 -->
+<div class="modal" id="sampleModal15">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Characters</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img style="border-radius: 5px;" src="img11/characters/Choi20.webp" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Choi Jong-In</h4>
+                        <p>Choi Jong-In (최종인) is a Korean S-Rank Hunter who specializes in fire magic and the Guild Master of the Hunters Guild.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group mr-auto">
+                    <a class="btn btn-warning mr-2" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal14">
+                        <i class="fa-solid fa-chevron-left"></i> Back
+                    </a>
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal16">
+                        <i class="fa-solid fa-chevron-right"></i> Next
+                    </a>
+                </div>
+                <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END OF 15th MODAL -->
+
+
+<!-- Modal 16 -->
+<div class="modal" id="sampleModal16">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Characters</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img style="border-radius: 5px;" src="img11/characters/Dongsoo2.webp" class="w-100" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Hwang Dongsoo</h4>
+                        <p>Hwang Dongsoo (황동수) was a Korean-American S-Rank Hunter and the younger brother of Hwang Dongsuk.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="btn-group mr-auto">
+                    <a class="btn btn-warning mr-2" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal15">
+                        <i class="fa-solid fa-chevron-left"></i> Back
+                    </a>
+                    <!-- <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal14">
+                        <i class="fa-solid fa-circle-info"></i> Next
+                    </a> -->
+                </div>
+                <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END OF 16th MODAL -->
+
+
+  
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+<!-- Modal 10 -->
+
+<!-- d-flex justify-content-center align-items-center used to center most of the items here -->
+
+<div class="modal" id="sampleModal10">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header d-flex justify-content-center align-items-center">
+                <h2 class="modal-title">Solo Leveling</h2>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <img style="border-radius: 5px; width: 50%;" src="img11/characters/Solo_Leveling_Webtoon.png" alt="">
+                    </div>
+                    
+                    <div class="col-md-12">
+                        <h4 class="d-flex justify-content-center align-items-center">Author Chugong</h4>
+                        <p>Solo Leveling, also alternatively translated as Only I Level Up (Korean: 나 혼자만 레벨업; RR: Na Honjaman Rebeleop), is a South Korean web novel written by Chugong. It was serialized in Kakao's digital comic and fiction platform KakaoPage beginning on July 25, 2016, and was later published in full by D&C Media under their Papyrus label on November 4, 2016. The novel has been licensed in English by Yen Press.</p>
+                        <p>A webtoon adaptation of Solo Leveling was first serialized in KakaoPage on March 4, 2018; it was illustrated by Jang Sung-rak (aka Dubu), the CEO of Redice Studio, who died on July 23, 2022, after suffering from a cerebral hemorrhage. The webtoon's first season concluded on March 19, 2020, and its second season began on August 1, 2020, concluding in December 2021 with its 179th chapter. Its individual chapters have been collected and published by D&C Media into seven volumes as of February 2023. The webtoon has been licensed in English by Yen Press.</p>
+                        <p>A role-playing video game is in development at Netmarble. An anime television series adaptation by A-1 Pictures is set to premiere in Q1 2024.</p>
+                        <p><strong>Plot:</strong></p>
+                        <p>In a world where hunters — human warriors who possess supernatural abilities — must battle deadly monsters to protect mankind from certain annihilation, a notoriously weak hunter named Sung Jinwoo finds himself in a seemingly endless struggle for survival. One day, after narrowly surviving an overwhelmingly powerful double dungeon that nearly wipes out his entire party, a mysterious program called the System chooses him as its sole player and in turn, gives him the extremely rare ability to level up in strength and turn anyone he kills into a loyal minion called a shadow. Jinwoo then sets out on a journey as he fights against all kinds of enemies, both man and monster, to discover the secrets of the dungeons and the true source of his powers.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i> Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- END OF 10th MODAL -->   
+
+        
+<div class="container-fluid bg-warning p-2">
+    <!-- class="text-center" to center the text -->
+    <h5 class="text-center">Copyright 2023</h5>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
